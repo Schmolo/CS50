@@ -1,0 +1,11 @@
+sort1 uses: bubble sort
+
+How do you know?: is way faster in sorte numbers than sort3 so i assume its bubble sort
+
+sort2 uses: merge sort
+
+How do you know?: was by far the fastest with random numbers
+
+sort3 uses: selection sort
+
+How do you know?: since i guessed sort2 and sort2 already i asume sort3 is selection sort (used the "Not sure how to solve?" video for help)

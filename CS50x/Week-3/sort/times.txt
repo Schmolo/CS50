@@ -1,0 +1,87 @@
+        random5000
+    sort1
+real    0m0.102s
+    sort2
+real    0m0.047s
+    sort3
+real    0m0.051s
+
+        random10000
+    sort1
+real    0m0.318s
+    sort2
+real    0m0.155s
+    sort3
+real    0m0.194s
+
+        random50000
+    sort1
+real    0m7.517s
+    sort2               merge sort
+real    0m0.448s
+    sort3
+real    0m2.872s
+
+        reversed5000
+    sort1
+real    0m0.104s
+    sort2
+real    0m0.047s
+    sort3
+real    0m0.054s
+
+        reversed10000
+    sort1
+real    0m0.254s
+    sort2
+real    0m0.071s
+    sort3
+real    0m0.185s
+
+        reversed50000
+    sort1
+real    0m5.778s
+    sort2
+real    0m0.604s
+    sort3
+real    0m3.103s
+
+        sorted5000
+    sort1
+real    0m0.028s
+    sort2
+real    0m0.035s
+    sort3
+real    0m0.066s
+
+        sorted10000
+    sort1
+real    0m0.054s
+    sort2
+real    0m0.091s
+    sort3
+real    0m0.193s
+
+        sorted50000
+    sort1               bubble sort
+real    0m0.325s
+    sort2
+real    0m0.370s
+    sort3
+real    0m3.076s
+
+        reversed50000
+    sort1
+real    0m5.778s
+    sort2
+real    0m0.604s
+    sort3
+real    0m3.103s
+
+        random50000
+    sort1
+real    0m7.517s
+    sort2               merge sort
+real    0m0.448s
+    sort3
+real    0m2.872s

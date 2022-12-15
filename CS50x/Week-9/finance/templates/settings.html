@@ -1,0 +1,28 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Settings
+{% endblock %}
+
+{% block main %}
+    <form class="mb-3" action="/settings" method="post">
+        <h2>Change Password</h2>
+        <div class="mb-3">
+            <input autocomplete="off" autofocus class="form-control mx-auto w-auto" id="current" name="current" placeholder="Current Password" type="password">
+        </div>
+        <div class="mb-3">
+            <input class="form-control mx-auto w-auto" id="again" name="again" placeholder="Current Password again" type="password">
+        </div>
+        <div class="mb-3">
+            <input class="form-control mx-auto w-auto" id="new" name="new" placeholder="New Password" type="password">
+        </div>
+        <button class="btn btn-primary" name="change_password" type="submit">Change</button>
+    </form>
+    <form action="/settings" method="post">
+        <h2>Add Cash</h2>
+        <div class="mb-3">
+            <input autocomplete="off" autofocus class="form-control mx-auto w-auto" id="add" name="add" placeholder="Cash Amount" type="number">
+        </div>
+        <button class="btn btn-primary" name="add_cash" type="submit">Add</button>
+    </form>
+{% endblock %}
